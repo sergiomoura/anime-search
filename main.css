@@ -68,6 +68,12 @@ main > img {
 
 #history img {
     width: 100%;
+    cursor: pointer;
+    filter: grayscale();
+}
+
+#history img:hover{
+    filter: none;
 }
 
 @media (max-width: 1000px) {
