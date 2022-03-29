@@ -11,7 +11,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
     </style>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
 </head>
 
 <body>
@@ -19,25 +19,14 @@
 
         <form id="controls">
             <input id="http-status-code" placeholder="Http Status Code" />
-            <button id="button">Get Image!</button>
+            <button type="submit" id="button">Get Image!</button>
         </form>
 
-        <img src="https://http.dog/403.jpg">
-        
+        <img id="imgContainer" src="https://http.dog/403.jpg">
     
         <div id="history">
             <h1>History</h1>
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
-            <img src="https://http.dog/403.jpg">
+            <p>History is empty</p>
         </div>
 
     </main>

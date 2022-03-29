@@ -68,3 +68,13 @@ main > img {
 #history img {
     width: 100%;
 }
+
+@media (max-width: 1000px) {
+    main {
+        width: calc(100% - 20px);
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
