@@ -1,0 +1,25 @@
+{
+    "name": "HTTP Dog",
+    "short_name": "HTTP Dog",
+    "lang": "pt-BR",
+    "start_url": "/main.html",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "/icons/shiba-16.png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/icons/shiba-64.png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/icons/shiba-128.png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/icons/shiba-512.png",
+            "sizes": "512x512"
+        }
+    ]
+  }
