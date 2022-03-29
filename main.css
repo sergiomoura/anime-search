@@ -19,6 +19,7 @@ main {
     display: grid;
     grid-template-columns: 600px 1fr;
     gap: 10px;
+    align-items: start;
 }
 
 #controls {
