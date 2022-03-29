@@ -26,6 +26,7 @@ main {
     grid-column: 1 / 3;
     display: flex;
     gap: 10px;
+    width: 100%;
 }
 
 #controls input {
@@ -33,6 +34,7 @@ main {
     border: 1px solid #CCC;
     padding: 10px;
     font-family: inherit;
+    width: 516px
 }
 
 #controls button {
@@ -83,5 +85,17 @@ main > img {
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+
+    #history {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 700px){
+    #controls input {
+        flex-grow: 1;
+        width: auto;
     }
 }
